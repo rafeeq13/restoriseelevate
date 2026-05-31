@@ -13,7 +13,7 @@ import type { SerializedEditorState } from "@payloadcms/richtext-lexical/lexical
 
 // ---------- Lexical rich-text helper -------------------------------------
 
-function richText(paragraphs: string[]): SerializedEditorState {
+function richText(paragraphs: readonly string[]): SerializedEditorState {
   return {
     root: {
       type: "root",

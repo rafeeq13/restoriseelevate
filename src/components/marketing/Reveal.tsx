@@ -70,10 +70,9 @@ export function Reveal({
     ["--reveal-delay" as string]: `${computedDelay}ms`,
   };
 
-  // @ts-expect-error — runtime ref assignment for dynamic tag
   return (
     <Tag
-      ref={ref}
+      ref={ref as React.Ref<HTMLElement>}
       data-reveal="out"
       data-reveal-variant={variant}
       className={className}
