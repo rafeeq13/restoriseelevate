@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Serviços",
+    "about": "Sobre nós",
+    "team": "Equipa",
+    "portfolio": "Portfólio",
+    "reviews": "Avaliações",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "startProject": "Iniciar projeto",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "skipToContent": "Saltar para o conteúdo"
+  },
+  "Footer": {
+    "services": "Serviços",
+    "agency": "Agência",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço",
+    "cookies": "Política de cookies",
+    "cookiePreferences": "Preferências de cookies",
+    "copyright": "© Restorise Business Solutions. Todos os direitos reservados.",
+    "geographicScope": "Servimos clientes no Reino Unido, EUA, Canadá, UE e Austrália."
+  },
+  "Home": {
+    "eyebrow": "Para restaurantes, cafés, hotéis e cloud kitchens",
+    "heading": "Crescimento digital para o setor food & hospitality.",
+    "subheading": "A Restorise Business Solutions é a agência que marcas de hospitality contratam para aquisição paga, visibilidade, redes sociais, produção criativa e a cola operacional de um food business moderno. Servimos clientes no Reino Unido, EUA, Canadá, UE e Austrália.",
+    "ctaPrimary": "Iniciar projeto",
+    "ctaSecondary": "Ver serviços",
+    "servicesEyebrow": "O que fazemos",
+    "servicesHeading": "Uma stack focada, construída para hospitality.",
+    "engagementEyebrow": "Como trabalhamos",
+    "engagementHeading": "Escolha o modelo de colaboração adequado à sua fase.",
+    "engagementBody": "Pacotes produtizados para o primeiro engagement. Retainers à medida para crescimento contínuo. Scopes de projeto para trabalhos pontuais.",
+    "ctaSectionEyebrow": "Pronto para falar?",
+    "ctaSectionHeading": "Conte-nos sobre o seu espaço e voltamos com um plano em um dia útil."
+  },
+  "Services": {
+    "title": "Uma stack focada para hospitality.",
+    "description": "Cada serviço é oferecido como pacote produtizado, retainer à medida ou projeto pontual."
+  },
+  "LeadModal": {
+    "eyebrow": "Vamos falar",
+    "heading": "Conte-nos sobre o seu negócio",
+    "subheading": "Partilhe alguns detalhes e a nossa equipa responde em um dia útil.",
+    "firstName": "Nome",
+    "lastName": "Apelido",
+    "email": "E-mail",
+    "phoneCode": "Indicativo",
+    "phone": "Telefone",
+    "businessName": "Nome do negócio",
+    "businessType": "Tipo de negócio",
+    "country": "País",
+    "city": "Cidade",
+    "servicesRequired": "Serviços pretendidos",
+    "message": "Mensagem",
+    "submit": "Enviar",
+    "sending": "A enviar…",
+    "successEyebrow": "Recebido",
+    "successHeading": "Obrigado — recebemos.",
+    "successMessage": "Um membro da equipa entrará em contacto em um dia útil. Verifique a sua caixa de entrada para a confirmação.",
+    "close": "Fechar",
+    "privacyNote": "Protegido por reCAPTCHA. Ao enviar aceita a nossa política de privacidade.",
+    "select": "Selecionar…",
+    "errorGeneric": "Falha no envio. Por favor, tente novamente."
+  },
+  "Cookie": {
+    "title": "Usamos cookies",
+    "body": "Usamos cookies estritamente necessários para o funcionamento do site. Com a sua autorização também ativamos cookies de análise, marketing e funcionais.",
+    "cookiePolicy": "Política de cookies",
+    "manage": "Gerir preferências",
+    "save": "Guardar escolhas",
+    "reject": "Rejeitar todos",
+    "accept": "Aceitar todos",
+    "necessary": "Estritamente necessários",
+    "necessaryDesc": "Necessários ao funcionamento do site. Não podem ser desativados.",
+    "analytics": "Análise",
+    "analyticsDesc": "Ajudam-nos a entender como o site é utilizado (por ex. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personalizam anúncios e medem campanhas (por ex. Meta Pixel, TikTok Pixel).",
+    "functional": "Funcionais",
+    "functionalDesc": "Ativam funcionalidades avançadas como chat em direto e media incorporada."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "ariaLabel": "Selecionar idioma"
+  },
+  "Common": {
+    "learnMore": "Saber mais",
+    "readMore": "Ler mais",
+    "loading": "A carregar…"
+  }
+}

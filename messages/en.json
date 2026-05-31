@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Services",
+    "about": "About",
+    "team": "Team",
+    "portfolio": "Portfolio",
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "startProject": "Start a project",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "Footer": {
+    "services": "Services",
+    "agency": "Agency",
+    "resources": "Resources",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "cookiePreferences": "Cookie preferences",
+    "copyright": "© Restorise Business Solutions. All rights reserved.",
+    "geographicScope": "Serving clients in the UK, US, Canada, the EU, and Australia."
+  },
+  "Home": {
+    "eyebrow": "For restaurants, cafés, hotels & cloud kitchens",
+    "heading": "Digital growth for the food & hospitality industry.",
+    "subheading": "Restorise Business Solutions is the agency hospitality brands hire for paid acquisition, search visibility, social media, creative production, and the operational glue that keeps a modern food business running. We serve clients across the UK, US, Canada, EU, and Australia.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "Browse services",
+    "servicesEyebrow": "What we do",
+    "servicesHeading": "A focused service stack, built for hospitality.",
+    "engagementEyebrow": "How we work",
+    "engagementHeading": "Choose the engagement model that fits your stage.",
+    "engagementBody": "Productized packages for first engagements. Custom retainers for ongoing growth. Project-based scopes for one-time builds. One enquiry form, three commercial paths.",
+    "ctaSectionEyebrow": "Ready to talk?",
+    "ctaSectionHeading": "Tell us about your venue and we'll come back with a plan within one working day."
+  },
+  "Services": {
+    "title": "A focused stack for hospitality.",
+    "description": "Each service is offered as a productized package, a custom retainer, or a one-time project."
+  },
+  "LeadModal": {
+    "eyebrow": "Let's talk",
+    "heading": "Tell us about your business",
+    "subheading": "Share a few details and our team will reply within one working day.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phoneCode": "Code",
+    "phone": "Phone",
+    "businessName": "Business name",
+    "businessType": "Business type",
+    "country": "Country",
+    "city": "City",
+    "servicesRequired": "Services required",
+    "message": "Message",
+    "submit": "Send",
+    "sending": "Sending…",
+    "successEyebrow": "Received",
+    "successHeading": "Thanks — we've got it.",
+    "successMessage": "A team member will be in touch within one working day. Check your inbox for confirmation.",
+    "close": "Close",
+    "privacyNote": "Protected by reCAPTCHA. By submitting you agree to our Privacy Policy.",
+    "select": "Select…",
+    "errorGeneric": "Submission failed. Please try again."
+  },
+  "Cookie": {
+    "title": "We use cookies",
+    "body": "We use strictly necessary cookies to make the site work. With your permission, we'll also set analytics, marketing, and functional cookies to improve your experience.",
+    "cookiePolicy": "Cookie policy",
+    "manage": "Manage preferences",
+    "save": "Save choices",
+    "reject": "Reject all",
+    "accept": "Accept all",
+    "necessary": "Strictly necessary",
+    "necessaryDesc": "Required for the site to function. Cannot be disabled.",
+    "analytics": "Analytics",
+    "analyticsDesc": "Helps us understand how the site is used (e.g. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personalises ads and measures campaign performance (e.g. Meta Pixel, TikTok Pixel).",
+    "functional": "Functional",
+    "functionalDesc": "Enables enhanced features such as live chat and embedded media."
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "ariaLabel": "Select language"
+  },
+  "Common": {
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "loading": "Loading…"
+  }
+}

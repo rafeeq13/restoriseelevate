@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Leistungen",
+    "about": "Über uns",
+    "team": "Team",
+    "portfolio": "Portfolio",
+    "reviews": "Bewertungen",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "startProject": "Projekt starten",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "Footer": {
+    "services": "Leistungen",
+    "agency": "Agentur",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutzerklärung",
+    "terms": "AGB",
+    "cookies": "Cookie-Richtlinie",
+    "cookiePreferences": "Cookie-Einstellungen",
+    "copyright": "© Restorise Business Solutions. Alle Rechte vorbehalten.",
+    "geographicScope": "Wir betreuen Kunden in Großbritannien, den USA, Kanada, der EU und Australien."
+  },
+  "Home": {
+    "eyebrow": "Für Restaurants, Cafés, Hotels & Cloud Kitchens",
+    "heading": "Digitales Wachstum für die Food- & Hospitality-Branche.",
+    "subheading": "Restorise Business Solutions ist die Agentur, die Hospitality-Marken für Paid Acquisition, Sichtbarkeit, Social Media, Creative Production und den operativen Klebstoff eines modernen Foodbusiness beauftragen. Wir betreuen Kunden in Großbritannien, den USA, Kanada, der EU und Australien.",
+    "ctaPrimary": "Projekt starten",
+    "ctaSecondary": "Leistungen ansehen",
+    "servicesEyebrow": "Was wir tun",
+    "servicesHeading": "Ein fokussierter Leistungskatalog, gebaut für Hospitality.",
+    "engagementEyebrow": "Wie wir arbeiten",
+    "engagementHeading": "Wählen Sie das Engagement-Modell, das zu Ihrer Phase passt.",
+    "engagementBody": "Produktisierte Pakete für den Einstieg. Custom-Retainer für laufendes Wachstum. Projektbasierte Scopes für einmalige Builds.",
+    "ctaSectionEyebrow": "Reden wir?",
+    "ctaSectionHeading": "Erzählen Sie uns von Ihrem Betrieb und wir melden uns innerhalb eines Werktags mit einem Plan."
+  },
+  "Services": {
+    "title": "Ein fokussierter Stack für Hospitality.",
+    "description": "Jede Leistung wird als produktisiertes Paket, als Retainer oder als Einzelprojekt angeboten."
+  },
+  "LeadModal": {
+    "eyebrow": "Sprechen wir",
+    "heading": "Erzählen Sie uns von Ihrem Unternehmen",
+    "subheading": "Teilen Sie uns ein paar Details mit und unser Team meldet sich innerhalb eines Werktags.",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phoneCode": "Vorwahl",
+    "phone": "Telefon",
+    "businessName": "Firmenname",
+    "businessType": "Art des Unternehmens",
+    "country": "Land",
+    "city": "Stadt",
+    "servicesRequired": "Gewünschte Leistungen",
+    "message": "Nachricht",
+    "submit": "Senden",
+    "sending": "Sende…",
+    "successEyebrow": "Erhalten",
+    "successHeading": "Danke — wir haben Ihre Anfrage.",
+    "successMessage": "Ein Teammitglied meldet sich innerhalb eines Werktags. Schauen Sie in Ihr Postfach für die Bestätigung.",
+    "close": "Schließen",
+    "privacyNote": "Geschützt durch reCAPTCHA. Mit dem Absenden stimmen Sie unserer Datenschutzerklärung zu.",
+    "select": "Auswählen…",
+    "errorGeneric": "Übermittlung fehlgeschlagen. Bitte erneut versuchen."
+  },
+  "Cookie": {
+    "title": "Wir verwenden Cookies",
+    "body": "Wir verwenden notwendige Cookies, damit die Website funktioniert. Mit Ihrer Einwilligung setzen wir auch Analyse-, Marketing- und funktionale Cookies.",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "manage": "Einstellungen verwalten",
+    "save": "Auswahl speichern",
+    "reject": "Alle ablehnen",
+    "accept": "Alle akzeptieren",
+    "necessary": "Notwendig",
+    "necessaryDesc": "Für den Betrieb der Website erforderlich. Kann nicht deaktiviert werden.",
+    "analytics": "Analyse",
+    "analyticsDesc": "Hilft uns zu verstehen, wie die Website genutzt wird (z. B. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personalisiert Anzeigen und misst Kampagnenleistung (z. B. Meta Pixel, TikTok Pixel).",
+    "functional": "Funktional",
+    "functionalDesc": "Aktiviert erweiterte Funktionen wie Live-Chat und eingebettete Medien."
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache",
+    "ariaLabel": "Sprache auswählen"
+  },
+  "Common": {
+    "learnMore": "Mehr erfahren",
+    "readMore": "Weiterlesen",
+    "loading": "Lädt…"
+  }
+}

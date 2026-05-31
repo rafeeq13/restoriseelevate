@@ -1,0 +1,424 @@
+/* ============================================================
+   Restorise — Payload Admin Theme
+   Brand: white surface, black text, red accents.
+   Tokens (per brand sheet):
+     #FFFFFF (surface) — #0F0F0F (ink) — #FF0000 (accent)
+   Typography: Proxima Nova (Extrabold for display, Regular UI).
+   ============================================================ */
+
+/* --- Fonts -------------------------------------------------- */
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Token overrides --------------------------------------- *
+   Payload's CSS architecture exposes a wide set of CSS custom
+   properties. We override them at :root so the entire admin
+   surface inherits the Restorise palette without touching
+   individual component selectors. Light theme only. */
+:root,
+html[data-theme="light"] {
+  /* Brand palette */
+  --restorise-red: #ff0000;
+  --restorise-red-hover: #d40000;
+  --restorise-red-soft: #ffe5e5;
+  --restorise-ink: #0f0f0f;
+  --restorise-paper: #ffffff;
+
+  /* Typography */
+  --font-body: "Proxima Nova", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-body);
+  --font-mono: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, monospace;
+
+  /* Surfaces — keep everything crisp white, with subtle elevation grays */
+  --theme-bg: var(--restorise-paper);
+  --theme-input-bg: var(--restorise-paper);
+  --theme-elevation-0: var(--restorise-paper);
+  --theme-elevation-50: #fafafa;
+  --theme-elevation-100: #f5f5f5;
+  --theme-elevation-150: #ececec;
+  --theme-elevation-200: #e4e4e4;
+  --theme-elevation-250: #d9d9d9;
+  --theme-elevation-300: #cccccc;
+  --theme-elevation-400: #a8a8a8;
+  --theme-elevation-500: #888888;
+  --theme-elevation-600: #5e5e5e;
+  --theme-elevation-700: #3d3d3d;
+  --theme-elevation-800: #1f1f1f;
+  --theme-elevation-900: var(--restorise-ink);
+  --theme-elevation-1000: #000000;
+
+  /* Text */
+  --theme-text: var(--restorise-ink);
+  --theme-input-text: var(--restorise-ink);
+  --color-base-0: var(--restorise-paper);
+  --color-base-50: #fafafa;
+  --color-base-100: #f5f5f5;
+  --color-base-150: #ececec;
+  --color-base-200: #e4e4e4;
+  --color-base-300: #cccccc;
+  --color-base-400: #a8a8a8;
+  --color-base-500: #6e6e6e;
+  --color-base-600: #4a4a4a;
+  --color-base-700: #2b2b2b;
+  --color-base-800: #1a1a1a;
+  --color-base-850: #101010;
+  --color-base-900: var(--restorise-ink);
+  --color-base-1000: #000000;
+
+  /* Accent — Payload uses --theme-success / --theme-error / --color-success */
+  --theme-success-100: #ffe5e5;
+  --theme-success-500: var(--restorise-red);
+  --theme-success-700: var(--restorise-red-hover);
+  --color-success-500: var(--restorise-red);
+  --color-success-700: var(--restorise-red-hover);
+
+  /* Brand primary used in links, focus rings, primary buttons */
+  --color-accent-500: var(--restorise-red);
+  --color-accent-700: var(--restorise-red-hover);
+  --theme-link: var(--restorise-red);
+}
+
+/* Force light theme even if a user toggles via OS preference. */
+html,
+html[data-theme="dark"] {
+  color-scheme: light;
+}
+
+/* --- Body + typography ------------------------------------- */
+html,
+body {
+  background: var(--restorise-paper);
+  color: var(--restorise-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.template-default,
+.template-minimal,
+.payload-default-template {
+  background: var(--restorise-paper);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.doc-header h1,
+.doc-header h2,
+.collection-list__heading,
+.dashboard__label,
+.nav__label,
+.step-nav,
+.step-nav__last {
+  font-family: var(--font-body);
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  color: var(--restorise-ink);
+}
+
+/* --- Brand graphics ---------------------------------------- *
+   Both the login Logo and the nav Icon use the same horizontal
+   primary mark. The login mark is large and centered; the nav
+   icon is constrained to the header height. */
+.restorise-admin-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+}
+
+/* Sidebar brand block — sits in the SAME row as Payload's nav__header
+   (which contains the collapse / hamburger arrow at top:0 absolute).
+   We pull the brand block up by the app-header-height so it overlays the
+   header row, and pad-left by the same amount so it clears the arrow. */
+.restorise-nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: var(--app-header-height);
+  margin-top: calc(var(--app-header-height) * -1);
+  margin-bottom: 0.5rem;
+  padding: 0 1rem 0 var(--app-header-height);
+  border-bottom: 1px solid var(--theme-elevation-150);
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+  /* Stay below the absolute nav__header so the arrow button stays clickable. */
+  position: relative;
+  z-index: 0;
+}
+
+.restorise-nav-brand:hover {
+  opacity: 0.85;
+}
+
+.restorise-nav-brand img {
+  width: auto;
+  max-width: 100%;
+  max-height: calc(var(--app-header-height) - 18px);
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .restorise-nav-brand {
+    padding-left: var(--app-header-height);
+  }
+}
+
+/* --- Brand Icon (small breadcrumb / collapsed mark) -------- *
+   Square mark with a soft red-tinted halo. Sized to match the
+   admin's inline text rhythm. */
+.restorise-admin-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255, 0, 0, 0.10), transparent 70%),
+    #ffffff;
+  box-shadow:
+    0 1px 2px rgba(15, 15, 15, 0.06),
+    0 0 0 1px rgba(15, 15, 15, 0.06);
+  overflow: hidden;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.restorise-admin-icon:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 4px 10px -2px rgba(255, 0, 0, 0.35),
+    0 0 0 1px rgba(255, 0, 0, 0.25);
+}
+
+.restorise-admin-icon img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* --- Nav (left sidebar) ------------------------------------ */
+.nav {
+  background: var(--restorise-paper);
+  border-right: 1px solid var(--theme-elevation-150);
+}
+
+.nav__wrap {
+  padding-top: 0.5rem;
+}
+
+.nav .nav-group__toggle,
+.nav__link {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--restorise-ink);
+  border-radius: 4px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.nav .nav-group__toggle:hover,
+.nav__link:hover {
+  background: var(--restorise-red-soft);
+  color: var(--restorise-red);
+}
+
+.nav__link--active,
+.nav__link.active,
+a.nav__link[aria-current="page"] {
+  background: var(--restorise-red-soft);
+  color: var(--restorise-red);
+  font-weight: 700;
+}
+
+.nav-group__label {
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  color: var(--theme-elevation-500);
+}
+
+/* --- App header -------------------------------------------- */
+.app-header,
+.step-nav,
+.doc-header {
+  background: var(--restorise-paper);
+  border-bottom: 1px solid var(--theme-elevation-150);
+}
+
+.app-header__controls,
+.doc-header__controls {
+  align-items: center;
+}
+
+/* --- Buttons ----------------------------------------------- *
+   The primary action button is brand red; secondary is outlined
+   ink. Hover darkens the red 10%. */
+.btn--style-primary,
+.btn--icon-style-without-border.btn--style-primary {
+  background-color: var(--restorise-red);
+  border-color: var(--restorise-red);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.btn--style-primary:hover,
+.btn--style-primary:focus-visible {
+  background-color: var(--restorise-red-hover);
+  border-color: var(--restorise-red-hover);
+  color: #ffffff;
+}
+
+.btn--style-secondary {
+  background-color: transparent;
+  border: 1px solid var(--restorise-ink);
+  color: var(--restorise-ink);
+}
+
+.btn--style-secondary:hover {
+  background-color: var(--restorise-ink);
+  color: #ffffff;
+}
+
+/* --- Form controls ----------------------------------------- */
+input,
+textarea,
+select,
+.rs__control,
+.field-type__wrap input,
+.field-type__wrap textarea {
+  font-family: var(--font-body);
+}
+
+input:focus,
+textarea:focus,
+.rs__control--is-focused,
+.field-type__wrap input:focus,
+.field-type__wrap textarea:focus {
+  outline: none;
+  border-color: var(--restorise-red) !important;
+  box-shadow: 0 0 0 3px var(--restorise-red-soft) !important;
+}
+
+::selection {
+  background: var(--restorise-red);
+  color: #ffffff;
+}
+
+/* --- Login screen ------------------------------------------ *
+   Center the brand mark above the email/password form and give
+   the card a touch of elevation. */
+.template-minimal {
+  background: var(--restorise-paper);
+}
+
+.template-minimal__wrap,
+.login__wrap {
+  background: var(--restorise-paper);
+}
+
+.login__brand,
+.create-first-user__brand {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.75rem;
+}
+
+.login .restorise-admin-logo,
+.create-first-user .restorise-admin-logo {
+  max-width: 280px;
+}
+
+/* --- Tables ------------------------------------------------ */
+.collection-list,
+.table {
+  background: var(--restorise-paper);
+}
+
+.table thead {
+  background: var(--theme-elevation-50);
+}
+
+.table th {
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: var(--restorise-ink);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+
+.row-label,
+.array-field__draggable-rows,
+.blocks-field__rows {
+  background: var(--restorise-paper);
+}
+
+/* --- Pills / badges ---------------------------------------- */
+.pill {
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+.pill--style-success {
+  background: var(--restorise-red);
+  color: #ffffff;
+}
+
+/* --- Scrollbar (subtle) ------------------------------------ */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-elevation-200);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--restorise-red);
+}

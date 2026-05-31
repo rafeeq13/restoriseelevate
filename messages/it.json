@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "team": "Team",
+    "portfolio": "Portfolio",
+    "reviews": "Recensioni",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contatti",
+    "startProject": "Avvia un progetto",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "skipToContent": "Salta al contenuto"
+  },
+  "Footer": {
+    "services": "Servizi",
+    "agency": "Agenzia",
+    "resources": "Risorse",
+    "legal": "Legale",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "cookies": "Cookie policy",
+    "cookiePreferences": "Preferenze cookie",
+    "copyright": "© Restorise Business Solutions. Tutti i diritti riservati.",
+    "geographicScope": "Serviamo clienti in Regno Unito, USA, Canada, UE e Australia."
+  },
+  "Home": {
+    "eyebrow": "Per ristoranti, caffè, hotel e cloud kitchen",
+    "heading": "Crescita digitale per il settore food & hospitality.",
+    "subheading": "Restorise Business Solutions è l'agenzia che i brand dell'hospitality scelgono per acquisizione paid, visibilità, social media, produzione creativa e il collante operativo di un food business moderno. Serviamo clienti in Regno Unito, USA, Canada, UE e Australia.",
+    "ctaPrimary": "Avvia un progetto",
+    "ctaSecondary": "Esplora i servizi",
+    "servicesEyebrow": "Cosa facciamo",
+    "servicesHeading": "Uno stack focalizzato, costruito per l'hospitality.",
+    "engagementEyebrow": "Come lavoriamo",
+    "engagementHeading": "Scegli il modello di collaborazione adatto alla tua fase.",
+    "engagementBody": "Pacchetti produttizzati per il primo engagement. Retainer su misura per la crescita continua. Scope di progetto per interventi una tantum.",
+    "ctaSectionEyebrow": "Parliamone?",
+    "ctaSectionHeading": "Raccontaci del tuo locale e torniamo con un piano entro un giorno lavorativo."
+  },
+  "Services": {
+    "title": "Uno stack focalizzato per l'hospitality.",
+    "description": "Ogni servizio è offerto come pacchetto produttizzato, retainer su misura o progetto puntuale."
+  },
+  "LeadModal": {
+    "eyebrow": "Parliamone",
+    "heading": "Raccontaci della tua attività",
+    "subheading": "Condividi alcuni dettagli e il nostro team risponderà entro un giorno lavorativo.",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "E-mail",
+    "phoneCode": "Prefisso",
+    "phone": "Telefono",
+    "businessName": "Nome attività",
+    "businessType": "Tipo di attività",
+    "country": "Paese",
+    "city": "Città",
+    "servicesRequired": "Servizi richiesti",
+    "message": "Messaggio",
+    "submit": "Invia",
+    "sending": "Invio…",
+    "successEyebrow": "Ricevuto",
+    "successHeading": "Grazie — abbiamo ricevuto la tua richiesta.",
+    "successMessage": "Un membro del team ti contatterà entro un giorno lavorativo. Controlla la tua casella per la conferma.",
+    "close": "Chiudi",
+    "privacyNote": "Protetto da reCAPTCHA. Inviando accetti la nostra informativa sulla privacy.",
+    "select": "Seleziona…",
+    "errorGeneric": "Invio non riuscito. Riprova."
+  },
+  "Cookie": {
+    "title": "Usiamo cookie",
+    "body": "Usiamo cookie strettamente necessari al funzionamento del sito. Con il tuo consenso attiviamo anche cookie di analisi, marketing e funzionali.",
+    "cookiePolicy": "Cookie policy",
+    "manage": "Gestisci preferenze",
+    "save": "Salva scelte",
+    "reject": "Rifiuta tutti",
+    "accept": "Accetta tutti",
+    "necessary": "Strettamente necessari",
+    "necessaryDesc": "Indispensabili al funzionamento del sito. Non possono essere disattivati.",
+    "analytics": "Analisi",
+    "analyticsDesc": "Ci aiutano a capire come viene usato il sito (es. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personalizza annunci e misura campagne (es. Meta Pixel, TikTok Pixel).",
+    "functional": "Funzionali",
+    "functionalDesc": "Abilita funzionalità avanzate come live chat e media embed."
+  },
+  "LocaleSwitcher": {
+    "label": "Lingua",
+    "ariaLabel": "Seleziona lingua"
+  },
+  "Common": {
+    "learnMore": "Scopri di più",
+    "readMore": "Leggi di più",
+    "loading": "Caricamento…"
+  }
+}

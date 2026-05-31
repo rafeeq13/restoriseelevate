@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Diensten",
+    "about": "Over ons",
+    "team": "Team",
+    "portfolio": "Portfolio",
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "startProject": "Project starten",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "skipToContent": "Naar inhoud"
+  },
+  "Footer": {
+    "services": "Diensten",
+    "agency": "Agency",
+    "resources": "Bronnen",
+    "legal": "Juridisch",
+    "privacy": "Privacybeleid",
+    "terms": "Voorwaarden",
+    "cookies": "Cookiebeleid",
+    "cookiePreferences": "Cookie-voorkeuren",
+    "copyright": "© Restorise Business Solutions. Alle rechten voorbehouden.",
+    "geographicScope": "Wij bedienen klanten in het VK, de VS, Canada, de EU en Australië."
+  },
+  "Home": {
+    "eyebrow": "Voor restaurants, cafés, hotels en cloud kitchens",
+    "heading": "Digitale groei voor de food- en hospitality-sector.",
+    "subheading": "Restorise Business Solutions is het bureau waar hospitality-merken voor paid acquisition, zichtbaarheid, social media, creatieve productie en de operationele lijm van een modern food-business kiezen. Wij bedienen klanten in het VK, de VS, Canada, de EU en Australië.",
+    "ctaPrimary": "Project starten",
+    "ctaSecondary": "Bekijk diensten",
+    "servicesEyebrow": "Wat we doen",
+    "servicesHeading": "Een gefocuste dienstenstack, gebouwd voor hospitality.",
+    "engagementEyebrow": "Hoe we werken",
+    "engagementHeading": "Kies het samenwerkingsmodel dat bij uw fase past.",
+    "engagementBody": "Productized packages voor de eerste opdracht. Custom retainers voor doorlopende groei. Project-scopes voor eenmalige builds.",
+    "ctaSectionEyebrow": "Klaar om te praten?",
+    "ctaSectionHeading": "Vertel ons over uw zaak en wij komen binnen één werkdag terug met een plan."
+  },
+  "Services": {
+    "title": "Een gefocuste stack voor hospitality.",
+    "description": "Elke dienst wordt aangeboden als productized package, custom retainer of eenmalig project."
+  },
+  "LeadModal": {
+    "eyebrow": "Laten we praten",
+    "heading": "Vertel ons over uw zaak",
+    "subheading": "Deel een paar gegevens en ons team reageert binnen één werkdag.",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mail",
+    "phoneCode": "Landcode",
+    "phone": "Telefoon",
+    "businessName": "Bedrijfsnaam",
+    "businessType": "Soort onderneming",
+    "country": "Land",
+    "city": "Stad",
+    "servicesRequired": "Gewenste diensten",
+    "message": "Bericht",
+    "submit": "Versturen",
+    "sending": "Versturen…",
+    "successEyebrow": "Ontvangen",
+    "successHeading": "Bedankt — we hebben het ontvangen.",
+    "successMessage": "Een teamlid neemt binnen één werkdag contact op. Bekijk uw inbox voor de bevestiging.",
+    "close": "Sluiten",
+    "privacyNote": "Beschermd door reCAPTCHA. Door te versturen gaat u akkoord met ons privacybeleid.",
+    "select": "Selecteer…",
+    "errorGeneric": "Versturen mislukt. Probeer het opnieuw."
+  },
+  "Cookie": {
+    "title": "We gebruiken cookies",
+    "body": "We gebruiken strikt noodzakelijke cookies om de site te laten werken. Met uw toestemming plaatsen we ook analyse-, marketing- en functionele cookies.",
+    "cookiePolicy": "Cookiebeleid",
+    "manage": "Voorkeuren beheren",
+    "save": "Keuzes opslaan",
+    "reject": "Alles afwijzen",
+    "accept": "Alles accepteren",
+    "necessary": "Strikt noodzakelijk",
+    "necessaryDesc": "Vereist voor de werking van de site. Niet uit te schakelen.",
+    "analytics": "Analyse",
+    "analyticsDesc": "Helpt ons begrijpen hoe de site wordt gebruikt (bijv. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personaliseert advertenties en meet campagnes (bijv. Meta Pixel, TikTok Pixel).",
+    "functional": "Functioneel",
+    "functionalDesc": "Schakelt geavanceerde functies in zoals live chat en ingesloten media."
+  },
+  "LocaleSwitcher": {
+    "label": "Taal",
+    "ariaLabel": "Selecteer taal"
+  },
+  "Common": {
+    "learnMore": "Meer weten",
+    "readMore": "Lees meer",
+    "loading": "Laden…"
+  }
+}

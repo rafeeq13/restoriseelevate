@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Servicios",
+    "about": "Sobre nosotros",
+    "team": "Equipo",
+    "portfolio": "Portafolio",
+    "reviews": "Opiniones",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "startProject": "Iniciar un proyecto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "skipToContent": "Saltar al contenido"
+  },
+  "Footer": {
+    "services": "Servicios",
+    "agency": "Agencia",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos del servicio",
+    "cookies": "Política de cookies",
+    "cookiePreferences": "Preferencias de cookies",
+    "copyright": "© Restorise Business Solutions. Todos los derechos reservados.",
+    "geographicScope": "Atendemos clientes en Reino Unido, EE. UU., Canadá, la UE y Australia."
+  },
+  "Home": {
+    "eyebrow": "Para restaurantes, cafés, hoteles y cocinas fantasma",
+    "heading": "Crecimiento digital para la industria del food & hospitality.",
+    "subheading": "Restorise Business Solutions es la agencia que las marcas de hospitalidad contratan para adquisición pagada, visibilidad, redes sociales, producción creativa y el pegamento operativo de un negocio food moderno. Atendemos clientes en Reino Unido, EE. UU., Canadá, la UE y Australia.",
+    "ctaPrimary": "Iniciar un proyecto",
+    "ctaSecondary": "Ver servicios",
+    "servicesEyebrow": "Qué hacemos",
+    "servicesHeading": "Una oferta enfocada, pensada para hospitalidad.",
+    "engagementEyebrow": "Cómo trabajamos",
+    "engagementHeading": "Elija el modelo de colaboración que se ajusta a su etapa.",
+    "engagementBody": "Paquetes productizados para el primer engagement. Retainers a medida para crecimiento continuo. Alcances por proyecto para entregables únicos.",
+    "ctaSectionEyebrow": "¿Hablamos?",
+    "ctaSectionHeading": "Cuéntenos sobre su local y volveremos con un plan en un día hábil."
+  },
+  "Services": {
+    "title": "Un stack enfocado para hospitalidad.",
+    "description": "Cada servicio se ofrece como paquete productizado, retainer a medida o proyecto puntual."
+  },
+  "LeadModal": {
+    "eyebrow": "Hablemos",
+    "heading": "Cuéntenos sobre su negocio",
+    "subheading": "Comparta algunos detalles y nuestro equipo responderá en un día hábil.",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phoneCode": "Prefijo",
+    "phone": "Teléfono",
+    "businessName": "Nombre del negocio",
+    "businessType": "Tipo de negocio",
+    "country": "País",
+    "city": "Ciudad",
+    "servicesRequired": "Servicios requeridos",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "successEyebrow": "Recibido",
+    "successHeading": "Gracias — lo tenemos.",
+    "successMessage": "Un miembro del equipo le contactará en un día hábil. Revise su bandeja de entrada para la confirmación.",
+    "close": "Cerrar",
+    "privacyNote": "Protegido por reCAPTCHA. Al enviar aceptas nuestra política de privacidad.",
+    "select": "Seleccionar…",
+    "errorGeneric": "Error al enviar. Por favor, inténtelo de nuevo."
+  },
+  "Cookie": {
+    "title": "Usamos cookies",
+    "body": "Usamos cookies estrictamente necesarias para que el sitio funcione. Con su permiso también activamos cookies de análisis, marketing y funcionales.",
+    "cookiePolicy": "Política de cookies",
+    "manage": "Gestionar preferencias",
+    "save": "Guardar selección",
+    "reject": "Rechazar todo",
+    "accept": "Aceptar todo",
+    "necessary": "Estrictamente necesarias",
+    "necessaryDesc": "Necesarias para el funcionamiento del sitio. No pueden desactivarse.",
+    "analytics": "Análisis",
+    "analyticsDesc": "Nos ayudan a entender cómo se usa el sitio (p. ej. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personalizan publicidad y miden campañas (p. ej. Meta Pixel, TikTok Pixel).",
+    "functional": "Funcionales",
+    "functionalDesc": "Habilitan funciones avanzadas como chat en vivo y medios embebidos."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "ariaLabel": "Seleccionar idioma"
+  },
+  "Common": {
+    "learnMore": "Saber más",
+    "readMore": "Leer más",
+    "loading": "Cargando…"
+  }
+}

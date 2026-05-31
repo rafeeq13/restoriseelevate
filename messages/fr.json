@@ -1,0 +1,97 @@
+{
+  "Nav": {
+    "services": "Services",
+    "about": "À propos",
+    "team": "Équipe",
+    "portfolio": "Portfolio",
+    "reviews": "Avis",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "startProject": "Démarrer un projet",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "skipToContent": "Aller au contenu"
+  },
+  "Footer": {
+    "services": "Services",
+    "agency": "Agence",
+    "resources": "Ressources",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
+    "cookiePreferences": "Préférences cookies",
+    "copyright": "© Restorise Business Solutions. Tous droits réservés.",
+    "geographicScope": "Nous servons des clients au Royaume-Uni, aux États-Unis, au Canada, dans l'UE et en Australie."
+  },
+  "Home": {
+    "eyebrow": "Pour restaurants, cafés, hôtels & cloud kitchens",
+    "heading": "La croissance numérique pour la restauration et l'hôtellerie.",
+    "subheading": "Restorise Business Solutions est l'agence que les marques d'hospitalité choisissent pour l'acquisition payante, la visibilité, les réseaux sociaux, la production créative et la colle opérationnelle d'une entreprise food moderne. Nous servons des clients au Royaume-Uni, aux États-Unis, au Canada, dans l'UE et en Australie.",
+    "ctaPrimary": "Démarrer un projet",
+    "ctaSecondary": "Voir les services",
+    "servicesEyebrow": "Ce que nous faisons",
+    "servicesHeading": "Une offre ciblée, pensée pour l'hospitalité.",
+    "engagementEyebrow": "Comment nous travaillons",
+    "engagementHeading": "Choisissez le modèle d'engagement adapté à votre étape.",
+    "engagementBody": "Packages produitisés pour le premier engagement. Retainers sur mesure pour la croissance continue. Scopes projet pour les chantiers ponctuels.",
+    "ctaSectionEyebrow": "Prêt à discuter ?",
+    "ctaSectionHeading": "Parlez-nous de votre établissement et nous reviendrons avec un plan sous un jour ouvré."
+  },
+  "Services": {
+    "title": "Un stack ciblé pour l'hospitalité.",
+    "description": "Chaque service est proposé en package produitisé, en retainer sur mesure ou en projet ponctuel."
+  },
+  "LeadModal": {
+    "eyebrow": "Parlons-en",
+    "heading": "Parlez-nous de votre entreprise",
+    "subheading": "Partagez quelques détails et notre équipe vous répondra sous un jour ouvré.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "E-mail",
+    "phoneCode": "Indicatif",
+    "phone": "Téléphone",
+    "businessName": "Nom de l'entreprise",
+    "businessType": "Type d'entreprise",
+    "country": "Pays",
+    "city": "Ville",
+    "servicesRequired": "Services souhaités",
+    "message": "Message",
+    "submit": "Envoyer",
+    "sending": "Envoi…",
+    "successEyebrow": "Reçu",
+    "successHeading": "Merci — nous avons reçu votre message.",
+    "successMessage": "Un membre de l'équipe vous contactera sous un jour ouvré. Vérifiez votre boîte mail pour la confirmation.",
+    "close": "Fermer",
+    "privacyNote": "Protégé par reCAPTCHA. En soumettant, vous acceptez notre politique de confidentialité.",
+    "select": "Sélectionner…",
+    "errorGeneric": "Échec de l'envoi. Veuillez réessayer."
+  },
+  "Cookie": {
+    "title": "Nous utilisons des cookies",
+    "body": "Nous utilisons des cookies strictement nécessaires au fonctionnement du site. Avec votre accord, nous activons aussi des cookies d'analyse, marketing et fonctionnels.",
+    "cookiePolicy": "Politique de cookies",
+    "manage": "Gérer les préférences",
+    "save": "Enregistrer les choix",
+    "reject": "Tout refuser",
+    "accept": "Tout accepter",
+    "necessary": "Strictement nécessaires",
+    "necessaryDesc": "Indispensables au fonctionnement du site. Ne peuvent pas être désactivés.",
+    "analytics": "Analyse",
+    "analyticsDesc": "Nous aide à comprendre comment le site est utilisé (ex. Google Analytics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Personnalise les publicités et mesure les campagnes (ex. Meta Pixel, TikTok Pixel).",
+    "functional": "Fonctionnels",
+    "functionalDesc": "Active les fonctions avancées telles que le chat en direct et les médias intégrés."
+  },
+  "LocaleSwitcher": {
+    "label": "Langue",
+    "ariaLabel": "Sélectionner la langue"
+  },
+  "Common": {
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite",
+    "loading": "Chargement…"
+  }
+}
