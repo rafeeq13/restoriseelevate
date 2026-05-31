@@ -182,7 +182,12 @@ export default buildConfig({
   db: databaseUri
     ? postgresAdapter({
         pool: { connectionString: databaseUri },
-        push: process.env.NODE_ENV !== "production",
+        // push: true in production for the initial Vercel + Supabase
+        // deploy so Payload auto-syncs the schema (no migration files
+        // exist yet). Once the app is live and data is in, generate
+        // migrations with `npx payload migrate:create`, commit them,
+        // and flip this back to `process.env.NODE_ENV !== "production"`.
+        push: true,
       })
     : sqliteAdapter({
         client: { url: "file:./payload-dev.db" },
